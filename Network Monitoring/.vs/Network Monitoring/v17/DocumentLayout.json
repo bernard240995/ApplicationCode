@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|c:\\users\\bernard\\source\\repos\\network monitoring\\network monitoring\\services\\emailservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|solutionrelative:network monitoring\\services\\emailservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|c:\\users\\bernard\\source\\repos\\network monitoring\\network monitoring\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|solutionrelative:network monitoring\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\Network Monitoring.csproj|c:\\users\\bernard\\source\\repos\\network monitoring\\network monitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\Network Monitoring.csproj|solutionrelative:network monitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|c:\\users\\bernard\\source\\repos\\network monitoring\\network monitoring\\services\\networkscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|solutionrelative:network monitoring\\services\\networkscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|c:\\users\\bernard\\source\\repos\\network monitoring\\network monitoring\\services\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|solutionrelative:network monitoring\\services\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|c:\\users\\bernard\\source\\repos\\network monitoring\\network monitoring\\models\\devicemonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|solutionrelative:network monitoring\\models\\devicemonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|c:\\users\\bernard\\source\\repos\\network monitoring\\network monitoring\\models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|solutionrelative:network monitoring\\models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|c:\\users\\bernard\\source\\repos\\network monitoring\\network monitoring\\models\\networkdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AB63E-558D-466D-A60A-1CA4C750EAD9}|Network Monitoring\\AdvancedNetworkMonitor.csproj|solutionrelative:network monitoring\\models\\networkdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NetworkDevice.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Models\\NetworkDevice.cs",
+              "RelativeDocumentMoniker": "Network Monitoring\\Models\\NetworkDevice.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Models\\NetworkDevice.cs",
+              "RelativeToolTip": "Network Monitoring\\Models\\NetworkDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:11:22.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Models\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Network Monitoring\\Models\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Models\\EmailSettings.cs",
+              "RelativeToolTip": "Network Monitoring\\Models\\EmailSettings.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:10:52.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Models\\DeviceMonitor.cs",
+              "RelativeDocumentMoniker": "Network Monitoring\\Models\\DeviceMonitor.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Models\\DeviceMonitor.cs",
+              "RelativeToolTip": "Network Monitoring\\Models\\DeviceMonitor.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:05:39.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Services\\LoggerService.cs",
+              "RelativeDocumentMoniker": "Network Monitoring\\Services\\LoggerService.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Services\\LoggerService.cs",
+              "RelativeToolTip": "Network Monitoring\\Services\\LoggerService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:04:21.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NetworkScanner.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Services\\NetworkScanner.cs",
+              "RelativeDocumentMoniker": "Network Monitoring\\Services\\NetworkScanner.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Services\\NetworkScanner.cs",
+              "RelativeToolTip": "Network Monitoring\\Services\\NetworkScanner.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:03:43.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Program.cs",
+              "RelativeDocumentMoniker": "Network Monitoring\\Program.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Program.cs",
+              "RelativeToolTip": "Network Monitoring\\Program.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAqwIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T16:58:30.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Services\\EmailService.cs.cs",
+              "RelativeDocumentMoniker": "Network Monitoring\\Services\\EmailService.cs.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Services\\EmailService.cs.cs",
+              "RelativeToolTip": "Network Monitoring\\Services\\EmailService.cs.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:02:50.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Models\\AppConfig.cs",
+              "RelativeDocumentMoniker": "Network Monitoring\\Models\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\Network Monitoring\\Network Monitoring\\Models\\AppConfig.cs",
+              "RelativeToolTip": "Network Monitoring\\Models\\AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:30:47.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

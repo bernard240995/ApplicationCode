@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|c:\\users\\bernard\\source\\repos\\ediorderdata\\ediorderdata\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|solutionrelative:ediorderdata\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|c:\\users\\bernard\\source\\repos\\ediorderdata\\ediorderdata\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|solutionrelative:ediorderdata\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|c:\\users\\bernard\\source\\repos\\ediorderdata\\ediorderdata\\ediprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|solutionrelative:ediorderdata\\ediprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|c:\\users\\bernard\\source\\repos\\ediorderdata\\ediorderdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|solutionrelative:ediorderdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|c:\\users\\bernard\\source\\repos\\ediorderdata\\ediorderdata\\ediparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|solutionrelative:ediorderdata\\ediparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|c:\\users\\bernard\\source\\repos\\ediorderdata\\ediorderdata\\ediorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|solutionrelative:ediorderdata\\ediorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|c:\\users\\bernard\\source\\repos\\ediorderdata\\ediorderdata\\edifilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|solutionrelative:ediorderdata\\edifilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|c:\\users\\bernard\\source\\repos\\ediorderdata\\ediorderdata\\edidatabasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49811EBF-DACB-438F-9A47-A11E82C42676}|EDIOrderData\\EDIOrderData.csproj|solutionrelative:ediorderdata\\edidatabasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EmailService.cs",
+              "RelativeDocumentMoniker": "EDIOrderData\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EmailService.cs",
+              "RelativeToolTip": "EDIOrderData\\EmailService.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAwwLoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T00:04:22.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EDIProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIProcessor.cs",
+              "RelativeDocumentMoniker": "EDIOrderData\\EDIProcessor.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIProcessor.cs",
+              "RelativeToolTip": "EDIOrderData\\EDIProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:53:45.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EDIFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIFileHandler.cs",
+              "RelativeDocumentMoniker": "EDIOrderData\\EDIFileHandler.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIFileHandler.cs",
+              "RelativeToolTip": "EDIOrderData\\EDIFileHandler.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA8wEMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:53:12.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EDIDatabaseHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIDatabaseHandler.cs",
+              "RelativeDocumentMoniker": "EDIOrderData\\EDIDatabaseHandler.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIDatabaseHandler.cs",
+              "RelativeToolTip": "EDIOrderData\\EDIDatabaseHandler.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:52:34.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EDIParser.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIParser.cs",
+              "RelativeDocumentMoniker": "EDIOrderData\\EDIParser.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIParser.cs",
+              "RelativeToolTip": "EDIOrderData\\EDIParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:51:23.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EDIOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIOrder.cs",
+              "RelativeDocumentMoniker": "EDIOrderData\\EDIOrder.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\EDIOrder.cs",
+              "RelativeToolTip": "EDIOrderData\\EDIOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T23:49:18.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\Program.cs",
+              "RelativeDocumentMoniker": "EDIOrderData\\Program.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\Program.cs",
+              "RelativeToolTip": "EDIOrderData\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:04:02.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\App.config",
+              "RelativeDocumentMoniker": "EDIOrderData\\App.config",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\EDIOrderData\\EDIOrderData\\App.config",
+              "RelativeToolTip": "EDIOrderData\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-04T00:15:52.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

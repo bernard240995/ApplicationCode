@@ -1,0 +1,407 @@
+Renamed Types:
+
+[CloudflareStatusChecker]StringEncryptor -> [CloudflareStatusChecker]A.A
+{
+	[CloudflareStatusChecker]StringEncryptor::Encrypt[1]( [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]StringEncryptor::Decrypt[1]( [System.Runtime]System.String ) -> a
+
+	[CloudflareStatusChecker]StringEncryptor::.cctor[0]( ) skipped:  special name
+
+	System.Byte[] [CloudflareStatusChecker]System.Byte[] StringEncryptor::Key -> A
+	System.Byte[] [CloudflareStatusChecker]System.Byte[] StringEncryptor::IV -> a
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService -> [CloudflareStatusChecker]A.D
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService::FetchIncidents[1]( [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService::FilterBillingIncidents[1]( [System.Collections]System.Collections.Generic.List`1<[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident> ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService::CombineResponses[2]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse, [CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService::LogParsedData[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService::.ctor[0]( ) skipped:  special name
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService::Dispose[0]( ) skipped:  external base class or interface
+
+	System.Net.Http.HttpClient [CloudflareStatusChecker]System.Net.Http.HttpClient CloudflareStatusChecker.Services.IncidentService::_httpClient -> A
+	System.Text.Json.JsonSerializerOptions [CloudflareStatusChecker]System.Text.Json.JsonSerializerOptions CloudflareStatusChecker.Services.IncidentService::_jsonOptions -> A
+	System.Boolean [CloudflareStatusChecker]System.Boolean CloudflareStatusChecker.Services.IncidentService::_disposed -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse -> [CloudflareStatusChecker]A.d
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse::get_Page[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse::set_Page[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse::get_Incidents[0]( ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse::set_Incidents[1]( [System.Collections]System.Collections.Generic.List`1<[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident> ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse::.ctor[0]( ) skipped:  special name
+
+	CloudflareStatusChecker.Models.PageInfo [CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo CloudflareStatusChecker.Models.IncidentResponse::<Page>k__BackingField -> A
+	System.Collections.Generic.List`1<CloudflareStatusChecker.Models.Incident> [CloudflareStatusChecker]System.Collections.Generic.List`1<CloudflareStatusChecker.Models.Incident> CloudflareStatusChecker.Models.IncidentResponse::<Incidents>k__BackingField -> A
+
+	CloudflareStatusChecker.Models.PageInfo [CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo CloudflareStatusChecker.Models.IncidentResponse::Page -> dropped
+	System.Collections.Generic.List`1<CloudflareStatusChecker.Models.Incident> [CloudflareStatusChecker]System.Collections.Generic.List`1<CloudflareStatusChecker.Models.Incident> CloudflareStatusChecker.Models.IncidentResponse::Incidents -> dropped
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo -> [CloudflareStatusChecker]A.E
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo::get_Id[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo::set_Id[1]( [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo::get_Name[0]( ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo::set_Name[1]( [System.Runtime]System.String ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo::get_Url[0]( ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo::set_Url[1]( [System.Runtime]System.String ) -> B
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo::.ctor[0]( ) skipped:  special name
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.PageInfo::<Id>k__BackingField -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.PageInfo::<Name>k__BackingField -> a
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.PageInfo::<Url>k__BackingField -> B
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.PageInfo::Id -> dropped
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.PageInfo::Name -> dropped
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.PageInfo::Url -> dropped
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident -> [CloudflareStatusChecker]A.e
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_Id[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_Id[1]( [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_Name[0]( ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_Name[1]( [System.Runtime]System.String ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_Status[0]( ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_Status[1]( [System.Runtime]System.String ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_Impact[0]( ) -> b
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_Impact[1]( [System.Runtime]System.String ) -> b
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_CreatedAt[0]( ) -> C
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_CreatedAt[1]( [System.Runtime]System.DateTime ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_UpdatedAt[0]( ) -> c
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_UpdatedAt[1]( [System.Runtime]System.DateTime ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_ResolvedAt[0]( ) -> D
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_ResolvedAt[1]( [System.Runtime]System.Nullable`1<[System.Runtime]System.DateTime> ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_Shortlink[0]( ) -> d
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_Shortlink[1]( [System.Runtime]System.String ) -> C
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_AffectedComponents[0]( ) -> E
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_AffectedComponents[1]( [System.Collections]System.Collections.Generic.List`1<[CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent> ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::get_IncidentUpdates[0]( ) -> e
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::set_IncidentUpdates[1]( [System.Collections]System.Collections.Generic.List`1<[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate> ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident::.ctor[0]( ) skipped:  special name
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::<Id>k__BackingField -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::<Name>k__BackingField -> a
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::<Status>k__BackingField -> B
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::<Impact>k__BackingField -> b
+	System.DateTime [CloudflareStatusChecker]System.DateTime CloudflareStatusChecker.Models.Incident::<CreatedAt>k__BackingField -> A
+	System.DateTime [CloudflareStatusChecker]System.DateTime CloudflareStatusChecker.Models.Incident::<UpdatedAt>k__BackingField -> a
+	System.Nullable`1<System.DateTime> [CloudflareStatusChecker]System.Nullable`1<System.DateTime> CloudflareStatusChecker.Models.Incident::<ResolvedAt>k__BackingField -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::<Shortlink>k__BackingField -> C
+	System.Collections.Generic.List`1<CloudflareStatusChecker.Models.AffectedComponent> [CloudflareStatusChecker]System.Collections.Generic.List`1<CloudflareStatusChecker.Models.AffectedComponent> CloudflareStatusChecker.Models.Incident::<AffectedComponents>k__BackingField -> A
+	System.Collections.Generic.List`1<CloudflareStatusChecker.Models.IncidentUpdate> [CloudflareStatusChecker]System.Collections.Generic.List`1<CloudflareStatusChecker.Models.IncidentUpdate> CloudflareStatusChecker.Models.Incident::<IncidentUpdates>k__BackingField -> A
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::Id -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::Name -> a
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::Status -> B
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::Impact -> b
+	System.DateTime [CloudflareStatusChecker]System.DateTime CloudflareStatusChecker.Models.Incident::CreatedAt -> C
+	System.DateTime [CloudflareStatusChecker]System.DateTime CloudflareStatusChecker.Models.Incident::UpdatedAt -> c
+	System.Nullable`1<System.DateTime> [CloudflareStatusChecker]System.Nullable`1<System.DateTime> CloudflareStatusChecker.Models.Incident::ResolvedAt -> D
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Incident::Shortlink -> d
+	System.Collections.Generic.List`1<CloudflareStatusChecker.Models.AffectedComponent> [CloudflareStatusChecker]System.Collections.Generic.List`1<CloudflareStatusChecker.Models.AffectedComponent> CloudflareStatusChecker.Models.Incident::AffectedComponents -> E
+	System.Collections.Generic.List`1<CloudflareStatusChecker.Models.IncidentUpdate> [CloudflareStatusChecker]System.Collections.Generic.List`1<CloudflareStatusChecker.Models.IncidentUpdate> CloudflareStatusChecker.Models.Incident::IncidentUpdates -> e
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent -> [CloudflareStatusChecker]A.F
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent::get_Name[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent::set_Name[1]( [System.Runtime]System.String ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent::.ctor[0]( ) skipped:  special name
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.AffectedComponent::<Name>k__BackingField -> A
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.AffectedComponent::Name -> dropped
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate -> [CloudflareStatusChecker]A.f
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate::get_Status[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate::set_Status[1]( [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate::get_Body[0]( ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate::set_Body[1]( [System.Runtime]System.String ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate::get_CreatedAt[0]( ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate::set_CreatedAt[1]( [System.Runtime]System.DateTime ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate::.ctor[0]( ) skipped:  special name
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.IncidentUpdate::<Status>k__BackingField -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.IncidentUpdate::<Body>k__BackingField -> a
+	System.DateTime [CloudflareStatusChecker]System.DateTime CloudflareStatusChecker.Models.IncidentUpdate::<CreatedAt>k__BackingField -> A
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.IncidentUpdate::Status -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.IncidentUpdate::Body -> dropped
+	System.DateTime [CloudflareStatusChecker]System.DateTime CloudflareStatusChecker.Models.IncidentUpdate::CreatedAt -> a
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings -> [CloudflareStatusChecker]A.G
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::get_ApiUrl[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::set_ApiUrl[1]( [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::get_UnresolvedApiUrl[0]( ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::set_UnresolvedApiUrl[1]( [System.Runtime]System.String ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::get_EmailFrom[0]( ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::set_EmailFrom[1]( [System.Runtime]System.String ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::get_EmailTo[0]( ) -> b
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::set_EmailTo[1]( [System.Runtime]System.String ) -> b
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::get_EmailCC[0]( ) -> C
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::set_EmailCC[1]( [System.Runtime]System.String[] ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::get_BypassSslValidation[0]( ) -> c
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::set_BypassSslValidation[1]( [System.Runtime]System.Boolean ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::get_Smtp[0]( ) -> D
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::set_Smtp[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings::.ctor[0]( ) skipped:  special name
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Settings::<ApiUrl>k__BackingField -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Settings::<UnresolvedApiUrl>k__BackingField -> a
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Settings::<EmailFrom>k__BackingField -> B
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Settings::<EmailTo>k__BackingField -> b
+	System.String[] [CloudflareStatusChecker]System.String[] CloudflareStatusChecker.Models.Settings::<EmailCC>k__BackingField -> A
+	System.Boolean [CloudflareStatusChecker]System.Boolean CloudflareStatusChecker.Models.Settings::<BypassSslValidation>k__BackingField -> A
+	CloudflareStatusChecker.Models.SmtpSettings [CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings CloudflareStatusChecker.Models.Settings::<Smtp>k__BackingField -> A
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Settings::ApiUrl -> dropped
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Settings::UnresolvedApiUrl -> dropped
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Settings::EmailFrom -> dropped
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.Settings::EmailTo -> dropped
+	System.String[] [CloudflareStatusChecker]System.String[] CloudflareStatusChecker.Models.Settings::EmailCC -> A
+	System.Boolean [CloudflareStatusChecker]System.Boolean CloudflareStatusChecker.Models.Settings::BypassSslValidation -> dropped
+	CloudflareStatusChecker.Models.SmtpSettings [CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings CloudflareStatusChecker.Models.Settings::Smtp -> dropped
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings -> [CloudflareStatusChecker]A.g
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::get_Server[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::set_Server[1]( [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::get_Port[0]( ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::set_Port[1]( [System.Runtime]System.Int32 ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::get_Username[0]( ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::set_Username[1]( [System.Runtime]System.String ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::get_Password[0]( ) -> b
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::set_Password[1]( [System.Runtime]System.String ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::get_UseSsl[0]( ) -> C
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::set_UseSsl[1]( [System.Runtime]System.Boolean ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::get_Timeout[0]( ) -> c
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::set_Timeout[1]( [System.Runtime]System.Int32 ) -> a
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Models.SmtpSettings::.ctor[0]( ) skipped:  special name
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.SmtpSettings::<Server>k__BackingField -> A
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Models.SmtpSettings::<Port>k__BackingField -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.SmtpSettings::<Username>k__BackingField -> a
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.SmtpSettings::<Password>k__BackingField -> B
+	System.Boolean [CloudflareStatusChecker]System.Boolean CloudflareStatusChecker.Models.SmtpSettings::<UseSsl>k__BackingField -> A
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Models.SmtpSettings::<Timeout>k__BackingField -> a
+
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.SmtpSettings::Server -> dropped
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Models.SmtpSettings::Port -> dropped
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.SmtpSettings::Username -> dropped
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Models.SmtpSettings::Password -> dropped
+	System.Boolean [CloudflareStatusChecker]System.Boolean CloudflareStatusChecker.Models.SmtpSettings::UseSsl -> dropped
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Models.SmtpSettings::Timeout -> dropped
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Program/<>c -> [CloudflareStatusChecker]A.b/A
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program/<>c::<Main>b__0_0[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program/<>c::<Main>b__0_1[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident ) -> a
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program/<>c::.cctor[0]( ) skipped:  special name
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program/<>c::.ctor[0]( ) skipped:  special name
+
+	CloudflareStatusChecker.Program/<>c [CloudflareStatusChecker]CloudflareStatusChecker.Program/<>c CloudflareStatusChecker.Program/<>c::<>9 -> A
+	System.Func`2<CloudflareStatusChecker.Models.Incident,System.Boolean> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.Incident,System.Boolean> CloudflareStatusChecker.Program/<>c::<>9__0_0 -> A
+	System.Func`2<CloudflareStatusChecker.Models.Incident,System.Boolean> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.Incident,System.Boolean> CloudflareStatusChecker.Program/<>c::<>9__0_1 -> a
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Program/<Main>d__0 -> [CloudflareStatusChecker]A.b/a
+{
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program/<Main>d__0::MoveNext[0]( ) skipped:  external base class or interface
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program/<Main>d__0::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Program/<Main>d__0::<>1__state -> A
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [CloudflareStatusChecker]System.Runtime.CompilerServices.AsyncTaskMethodBuilder CloudflareStatusChecker.Program/<Main>d__0::<>t__builder -> A
+	CloudflareStatusChecker.Models.Settings [CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings CloudflareStatusChecker.Program/<Main>d__0::<settings>5__2 -> A
+	CloudflareStatusChecker.Services.IncidentService [CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService CloudflareStatusChecker.Program/<Main>d__0::<incidentService>5__3 -> A
+	CloudflareStatusChecker.Services.ExcelReportService [CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService CloudflareStatusChecker.Program/<Main>d__0::<excelService>5__4 -> A
+	CloudflareStatusChecker.Services.EmailService [CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService CloudflareStatusChecker.Program/<Main>d__0::<emailService>5__5 -> A
+	CloudflareStatusChecker.Models.IncidentResponse [CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse CloudflareStatusChecker.Program/<Main>d__0::<mainResponse>5__6 -> A
+	CloudflareStatusChecker.Models.IncidentResponse [CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse CloudflareStatusChecker.Program/<Main>d__0::<combinedResponse>5__7 -> a
+	System.Collections.Generic.List`1<CloudflareStatusChecker.Models.Incident> [CloudflareStatusChecker]System.Collections.Generic.List`1<CloudflareStatusChecker.Models.Incident> CloudflareStatusChecker.Program/<Main>d__0::<activeIncidents>5__8 -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Program/<Main>d__0::<timestamp>5__9 -> A
+	System.Runtime.CompilerServices.TaskAwaiter`1<CloudflareStatusChecker.Models.IncidentResponse> [CloudflareStatusChecker]System.Runtime.CompilerServices.TaskAwaiter`1<CloudflareStatusChecker.Models.IncidentResponse> CloudflareStatusChecker.Program/<Main>d__0::<>u__1 -> A
+	System.Runtime.CompilerServices.TaskAwaiter [CloudflareStatusChecker]System.Runtime.CompilerServices.TaskAwaiter CloudflareStatusChecker.Program/<Main>d__0::<>u__2 -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1 -> [CloudflareStatusChecker]A.b/B
+{
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::MoveNext[0]( ) skipped:  external base class or interface
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<>1__state -> A
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [CloudflareStatusChecker]System.Runtime.CompilerServices.AsyncTaskMethodBuilder CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<>t__builder -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::reportType -> A
+	CloudflareStatusChecker.Models.PageInfo [CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::page -> A
+	System.Collections.Generic.List`1<CloudflareStatusChecker.Models.Incident> [CloudflareStatusChecker]System.Collections.Generic.List`1<CloudflareStatusChecker.Models.Incident> CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::incidents -> A
+	CloudflareStatusChecker.Services.ExcelReportService [CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::excelService -> A
+	CloudflareStatusChecker.Services.EmailService [CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::emailService -> A
+	CloudflareStatusChecker.Models.Settings [CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::settings -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::subject -> a
+	System.Object [CloudflareStatusChecker]System.Object CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<>7__wrap1 -> A
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<>7__wrap2 -> a
+	System.IO.MemoryStream [CloudflareStatusChecker]System.IO.MemoryStream CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<reportStream>5__4 -> A
+	System.Boolean [CloudflareStatusChecker]System.Boolean CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<emailSent>5__5 -> A
+	System.Exception [CloudflareStatusChecker]System.Exception CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<lastEmailError>5__6 -> A
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<attempt>5__7 -> B
+	System.Runtime.CompilerServices.TaskAwaiter [CloudflareStatusChecker]System.Runtime.CompilerServices.TaskAwaiter CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<>u__1 -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<fallbackPath>5__8 -> B
+	System.IO.FileStream [CloudflareStatusChecker]System.IO.FileStream CloudflareStatusChecker.Program/<ProcessIncidentReport>d__1::<fileStream>5__9 -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService/<>c -> [CloudflareStatusChecker]A.C/A
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService/<>c::<SendEmailWithAttachment>b__0_0[4]( [System.Runtime]System.Object, [System.Security.Cryptography]System.Security.Cryptography.X509Certificates.X509Certificate, [System.Security.Cryptography]System.Security.Cryptography.X509Certificates.X509Chain, [System.Net.Primitives]System.Net.Security.SslPolicyErrors ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService/<>c::.cctor[0]( ) skipped:  special name
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService/<>c::.ctor[0]( ) skipped:  special name
+
+	CloudflareStatusChecker.Services.EmailService/<>c [CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService/<>c CloudflareStatusChecker.Services.EmailService/<>c::<>9 -> A
+	System.Net.Security.RemoteCertificateValidationCallback [CloudflareStatusChecker]System.Net.Security.RemoteCertificateValidationCallback CloudflareStatusChecker.Services.EmailService/<>c::<>9__0_0 -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0 -> [CloudflareStatusChecker]A.C/a
+{
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::MoveNext[0]( ) skipped:  external base class or interface
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::<>1__state -> A
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [CloudflareStatusChecker]System.Runtime.CompilerServices.AsyncTaskMethodBuilder CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::<>t__builder -> A
+	System.IO.MemoryStream [CloudflareStatusChecker]System.IO.MemoryStream CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::attachmentStream -> A
+	CloudflareStatusChecker.Models.Settings [CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::settings -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::subject -> A
+	CloudflareStatusChecker.Services.EmailService [CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::<>4__this -> A
+	MimeKit.MimeMessage [CloudflareStatusChecker]MimeKit.MimeMessage CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::<message>5__2 -> A
+	MailKit.Net.Smtp.SmtpClient [CloudflareStatusChecker]MailKit.Net.Smtp.SmtpClient CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::<client>5__3 -> A
+	System.Runtime.CompilerServices.TaskAwaiter [CloudflareStatusChecker]System.Runtime.CompilerServices.TaskAwaiter CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::<>u__1 -> A
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [CloudflareStatusChecker]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> CloudflareStatusChecker.Services.EmailService/<SendEmailWithAttachment>d__0::<>u__2 -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService/<>c -> [CloudflareStatusChecker]A.c/A
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService/<>c::<GetComponentNames>b__3_0[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService/<>c::<GetComponentNames>b__3_1[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent ) -> a
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService/<>c::.cctor[0]( ) skipped:  special name
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService/<>c::.ctor[0]( ) skipped:  special name
+
+	CloudflareStatusChecker.Services.ExcelReportService/<>c [CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService/<>c CloudflareStatusChecker.Services.ExcelReportService/<>c::<>9 -> A
+	System.Func`2<CloudflareStatusChecker.Models.AffectedComponent,System.Boolean> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.AffectedComponent,System.Boolean> CloudflareStatusChecker.Services.ExcelReportService/<>c::<>9__3_0 -> A
+	System.Func`2<CloudflareStatusChecker.Models.AffectedComponent,System.String> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.AffectedComponent,System.String> CloudflareStatusChecker.Services.ExcelReportService/<>c::<>9__3_1 -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c -> [CloudflareStatusChecker]A.D/A
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::<FilterBillingIncidents>b__5_0[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::<FilterBillingIncidents>b__5_1[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::<FilterBillingIncidents>b__5_2[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::<CombineResponses>b__6_0[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::<CombineResponses>b__6_1[1]( [System.Linq]System.Linq.IGrouping`2<[System.Runtime]System.String,[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident> ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::<CombineResponses>b__6_2[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident ) -> B
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::<LogParsedData>b__7_0[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.AffectedComponent ) -> a
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::<LogParsedData>b__7_1[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentUpdate ) -> a
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::.cctor[0]( ) skipped:  special name
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c::.ctor[0]( ) skipped:  special name
+
+	CloudflareStatusChecker.Services.IncidentService/<>c [CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<>c CloudflareStatusChecker.Services.IncidentService/<>c::<>9 -> A
+	System.Func`2<CloudflareStatusChecker.Models.IncidentUpdate,System.Boolean> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.IncidentUpdate,System.Boolean> CloudflareStatusChecker.Services.IncidentService/<>c::<>9__5_1 -> A
+	System.Func`2<CloudflareStatusChecker.Models.AffectedComponent,System.Boolean> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.AffectedComponent,System.Boolean> CloudflareStatusChecker.Services.IncidentService/<>c::<>9__5_2 -> A
+	System.Func`2<CloudflareStatusChecker.Models.Incident,System.Boolean> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.Incident,System.Boolean> CloudflareStatusChecker.Services.IncidentService/<>c::<>9__5_0 -> A
+	System.Func`2<CloudflareStatusChecker.Models.Incident,System.String> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.Incident,System.String> CloudflareStatusChecker.Services.IncidentService/<>c::<>9__6_0 -> A
+	System.Func`2<System.Linq.IGrouping`2<System.String,CloudflareStatusChecker.Models.Incident>,CloudflareStatusChecker.Models.Incident> [CloudflareStatusChecker]System.Func`2<System.Linq.IGrouping`2<System.String,CloudflareStatusChecker.Models.Incident>,CloudflareStatusChecker.Models.Incident> CloudflareStatusChecker.Services.IncidentService/<>c::<>9__6_1 -> A
+	System.Func`2<CloudflareStatusChecker.Models.Incident,System.DateTime> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.Incident,System.DateTime> CloudflareStatusChecker.Services.IncidentService/<>c::<>9__6_2 -> A
+	System.Func`2<CloudflareStatusChecker.Models.AffectedComponent,System.String> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.AffectedComponent,System.String> CloudflareStatusChecker.Services.IncidentService/<>c::<>9__7_0 -> A
+	System.Func`2<CloudflareStatusChecker.Models.IncidentUpdate,System.DateTime> [CloudflareStatusChecker]System.Func`2<CloudflareStatusChecker.Models.IncidentUpdate,System.DateTime> CloudflareStatusChecker.Services.IncidentService/<>c::<>9__7_1 -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4 -> [CloudflareStatusChecker]A.D/a
+{
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4::MoveNext[0]( ) skipped:  external base class or interface
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [CloudflareStatusChecker]System.Int32 CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4::<>1__state -> A
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<CloudflareStatusChecker.Models.IncidentResponse> [CloudflareStatusChecker]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<CloudflareStatusChecker.Models.IncidentResponse> CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4::<>t__builder -> A
+	System.String [CloudflareStatusChecker]System.String CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4::apiUrl -> A
+	CloudflareStatusChecker.Services.IncidentService [CloudflareStatusChecker]CloudflareStatusChecker.Services.IncidentService CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4::<>4__this -> A
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> [CloudflareStatusChecker]System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4::<>u__1 -> A
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [CloudflareStatusChecker]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> CloudflareStatusChecker.Services.IncidentService/<FetchIncidents>d__4::<>u__2 -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.ConfigHelper -> [CloudflareStatusChecker]A.a
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.ConfigHelper::LoadSettings[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.ConfigHelper::GetConfigValue[2]( [System.Xml.ReaderWriter]System.Xml.XmlDocument, [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.ConfigHelper::DecodeBase64[1]( [System.Runtime]System.String ) -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.ConsoleHelper -> [CloudflareStatusChecker]A.B
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.ConsoleHelper::WriteColored[2]( [System.Runtime]System.String, [System.Console]System.ConsoleColor ) -> A
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Program -> [CloudflareStatusChecker]A.b
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program::Main[0]( ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program::ProcessIncidentReport[7]( [CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService, [CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService, [CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings, [CloudflareStatusChecker]CloudflareStatusChecker.Models.PageInfo, [System.Collections]System.Collections.Generic.List`1<[CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident>, [System.Runtime]System.String, [System.Runtime]System.String ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program::.ctor[0]( ) skipped:  special name
+	[CloudflareStatusChecker]CloudflareStatusChecker.Program::<Main>[0]( ) skipped:  special name
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService -> [CloudflareStatusChecker]A.C
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService::SendEmailWithAttachment[3]( [System.Runtime]System.IO.MemoryStream, [CloudflareStatusChecker]CloudflareStatusChecker.Models.Settings, [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService::MaskEmail[1]( [System.Runtime]System.String ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.EmailService::.ctor[0]( ) skipped:  special name
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService -> [CloudflareStatusChecker]A.c
+{
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService::GenerateReport[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.IncidentResponse ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService::GetStatusColor[1]( [System.Runtime]System.String ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService::FormatDateCell[2]( [ClosedXML]ClosedXML.Excel.IXLCell, [System.Runtime]System.Nullable`1<[System.Runtime]System.DateTime> ) -> A
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService::GetComponentNames[1]( [CloudflareStatusChecker]CloudflareStatusChecker.Models.Incident ) -> A
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Services.ExcelReportService::.ctor[0]( ) skipped:  special name
+}
+
+[CloudflareStatusChecker]CloudflareStatusChecker.Converters.DateTimeConverter -> [CloudflareStatusChecker]A.H
+{
+
+	[CloudflareStatusChecker]CloudflareStatusChecker.Converters.DateTimeConverter::Read[3]( [System.Text.Json]System.Text.Json.Utf8JsonReader&, [System.Runtime]System.Type, [System.Text.Json]System.Text.Json.JsonSerializerOptions ) skipped:  external base class or interface
+	[CloudflareStatusChecker]CloudflareStatusChecker.Converters.DateTimeConverter::Write[3]( [System.Text.Json]System.Text.Json.Utf8JsonWriter, [System.Runtime]System.DateTime, [System.Text.Json]System.Text.Json.JsonSerializerOptions ) skipped:  external base class or interface
+	[CloudflareStatusChecker]CloudflareStatusChecker.Converters.DateTimeConverter::.ctor[0]( ) skipped:  special name
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+
+Skipped Resources:
+
+CloudflareStatusChecker.app.config (no clear new name)

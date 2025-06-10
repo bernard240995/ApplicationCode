@@ -1,0 +1,315 @@
+2025-04-02 18:19:16 [INFO] Starting Advanced Network Monitoring Console
+2025-04-02 18:19:17 [INFO] Email alerts enabled for: recipient@example.com
+2025-04-02 18:19:18 [INFO] Detected local IP: 192.168.1.234
+2025-04-02 18:19:18 [INFO] Default scan range: 192.168.1.1-254
+2025-04-02 18:19:18 [INFO] Press Enter to use default or input custom IP range (e.g., 192.168.1.1-254)
+2025-04-02 18:20:18 [INFO] Discovering network devices...
+2025-04-02 18:20:18 [INFO] Scanning from 192.168.1.1 to 192.168.1.254...
+2025-04-02 18:20:19 [INFO] Discovered 3 device(s):
+2025-04-02 18:20:19 [INFO] - 192.168.1.234 (DESKTOP-6A16T69.lan) [Online]
+2025-04-02 18:20:19 [INFO] - 192.168.1.169 (XBOXONE.lan) [Online]
+2025-04-02 18:20:19 [INFO] - 192.168.1.1 (dsldevice.lan) [Online]
+2025-04-02 18:20:19 [INFO] Monitoring started. Press 'q' to quit.
+2025-04-02 18:20:19 [WARNING] 3 device(s) offline:
+2025-04-02 18:20:19 [WARNING] - 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 18:20:19 [WARNING] - 192.168.1.169 (XBOXONE.lan)
+2025-04-02 18:20:19 [WARNING] - 192.168.1.1 (dsldevice.lan)
+2025-04-02 18:20:19 [INFO] Status check started at 18:20:19
+2025-04-02 18:20:20 [INFO] 192.168.1.234 status changed to ONLINE
+2025-04-02 18:20:20 [INFO] 192.168.1.169 status changed to ONLINE
+2025-04-02 18:20:20 [INFO] 192.168.1.1 status changed to ONLINE
+2025-04-02 18:20:20 [INFO] Sending email to recipient@example.com...
+2025-04-02 18:20:22 [ERROR] Failed to send email alert: Failure sending mail.
+2025-04-02 18:20:49 [INFO] Status check started at 18:20:49
+2025-04-02 18:21:19 [INFO] Status check started at 18:21:19
+2025-04-02 18:21:49 [INFO] Status check started at 18:21:49
+2025-04-02 18:22:19 [INFO] Status check started at 18:22:19
+2025-04-02 18:22:49 [INFO] Status check started at 18:22:49
+2025-04-02 18:23:19 [INFO] Status check started at 18:23:19
+2025-04-02 18:35:22 [INFO] Starting Advanced Network Monitoring Console
+2025-04-02 18:35:22 [INFO] Email alerts enabled for: recipient@example.com
+2025-04-02 18:35:22 [INFO] Detected local IP: 192.168.1.234
+2025-04-02 18:35:22 [INFO] Automatically selected scan range: 192.168.1.1-254
+2025-04-02 18:35:22 [INFO] Discovering network devices...
+2025-04-02 18:35:22 [INFO] Scanning from 192.168.1.1 to 192.168.1.254...
+2025-04-02 18:35:23 [INFO] Discovered 3 device(s):
+2025-04-02 18:35:23 [INFO] - 192.168.1.1 (dsldevice.lan) [Online]
+2025-04-02 18:35:23 [INFO] - 192.168.1.169 (XBOXONE.lan) [Online]
+2025-04-02 18:35:23 [INFO] - 192.168.1.234 (DESKTOP-6A16T69.lan) [Online]
+2025-04-02 18:35:23 [INFO] Monitoring started. Press 'q' to quit.
+2025-04-02 18:35:23 [WARNING] 3 device(s) offline:
+2025-04-02 18:35:23 [WARNING] - 192.168.1.1 (dsldevice.lan)
+2025-04-02 18:35:23 [WARNING] - 192.168.1.169 (XBOXONE.lan)
+2025-04-02 18:35:23 [WARNING] - 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 18:35:23 [INFO] Status check started at 18:35:23
+2025-04-02 18:35:23 [INFO] 192.168.1.1 status changed to ONLINE
+2025-04-02 18:35:23 [INFO] 192.168.1.169 status changed to ONLINE
+2025-04-02 18:35:23 [INFO] 192.168.1.234 status changed to ONLINE
+2025-04-02 18:35:24 [INFO] Sending email to recipient@example.com...
+2025-04-02 18:35:24 [ERROR] Failed to send email alert: Failure sending mail.
+2025-04-02 18:39:10 [INFO] Starting Advanced Network Monitoring Console
+2025-04-02 18:39:10 [INFO] Email alerts enabled for: bernardwotherspoon55@gmail.com
+2025-04-02 18:39:10 [INFO] Detected local IP: 192.168.1.234
+2025-04-02 18:39:10 [INFO] Automatically selected scan range: 192.168.1.1-254
+2025-04-02 18:39:10 [INFO] Discovering network devices...
+2025-04-02 18:39:10 [INFO] Scanning from 192.168.1.1 to 192.168.1.254...
+2025-04-02 18:39:11 [INFO] Discovered 3 device(s):
+2025-04-02 18:39:11 [INFO] - 192.168.1.1 (dsldevice.lan) [Online]
+2025-04-02 18:39:11 [INFO] - 192.168.1.169 (XBOXONE.lan) [Online]
+2025-04-02 18:39:11 [INFO] - 192.168.1.234 (DESKTOP-6A16T69.lan) [Online]
+2025-04-02 18:39:11 [INFO] Monitoring started. Press 'q' to quit.
+2025-04-02 18:39:11 [INFO] Status check started at 18:39:11
+2025-04-02 18:39:11 [WARNING] 3 device(s) offline:
+2025-04-02 18:39:11 [WARNING] - 192.168.1.1 (dsldevice.lan)
+2025-04-02 18:39:11 [WARNING] - 192.168.1.169 (XBOXONE.lan)
+2025-04-02 18:39:11 [WARNING] - 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 18:39:11 [INFO] 192.168.1.169 status changed to ONLINE
+2025-04-02 18:39:11 [INFO] 192.168.1.1 status changed to ONLINE
+2025-04-02 18:39:11 [INFO] 192.168.1.234 status changed to ONLINE
+2025-04-02 18:39:11 [INFO] Sending email to bernardwotherspoon55@gmail.com...
+2025-04-02 18:39:23 [ERROR] Failed to send email alert: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. Error: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO2P265CA0396.GBRP265.PROD.OUTLOOK.COM 2025-04-02T17:39:23.528Z 08DD71A0E84FF73A]
+2025-04-02 18:39:50 [INFO] Starting Advanced Network Monitoring Console
+2025-04-02 18:39:50 [INFO] Email alerts enabled for: bernardwotherspoon55@gmail.com
+2025-04-02 18:39:51 [INFO] Detected local IP: 192.168.1.234
+2025-04-02 18:39:51 [INFO] Automatically selected scan range: 192.168.1.1-254
+2025-04-02 18:39:51 [INFO] Discovering network devices...
+2025-04-02 18:39:51 [INFO] Scanning from 192.168.1.1 to 192.168.1.254...
+2025-04-02 18:39:52 [INFO] Discovered 3 device(s):
+2025-04-02 18:39:52 [INFO] - 192.168.1.1 (dsldevice.lan) [Online]
+2025-04-02 18:39:52 [INFO] - 192.168.1.234 (DESKTOP-6A16T69.lan) [Online]
+2025-04-02 18:39:52 [INFO] - 192.168.1.169 (XBOXONE.lan) [Online]
+2025-04-02 18:39:52 [INFO] Monitoring started. Press 'q' to quit.
+2025-04-02 18:39:52 [INFO] Status check started at 18:39:52
+2025-04-02 18:39:52 [WARNING] 3 device(s) offline:
+2025-04-02 18:39:52 [WARNING] - 192.168.1.1 (dsldevice.lan)
+2025-04-02 18:39:52 [WARNING] - 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 18:39:52 [WARNING] - 192.168.1.169 (XBOXONE.lan)
+2025-04-02 18:39:52 [INFO] 192.168.1.169 status changed to ONLINE
+2025-04-02 18:39:52 [INFO] 192.168.1.234 status changed to ONLINE
+2025-04-02 18:39:52 [INFO] Sending email to bernardwotherspoon55@gmail.com...
+2025-04-02 18:40:03 [ERROR] Failed to send email alert: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. Error: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO4P123CA0592.GBRP123.PROD.OUTLOOK.COM 2025-04-02T17:40:03.427Z 08DD6F7410CC94C8]
+2025-04-02 18:44:35 [INFO] Starting Advanced Network Monitoring Console
+2025-04-02 18:44:35 [INFO] Email alerts enabled for: bernardwotherspoon55@gmail.com
+2025-04-02 18:44:35 [INFO] Detected local IP: 192.168.1.234
+2025-04-02 18:44:35 [INFO] Automatically selected scan range: 192.168.1.1-254
+2025-04-02 18:44:35 [INFO] Discovering network devices...
+2025-04-02 18:44:35 [INFO] Scanning from 192.168.1.1 to 192.168.1.254...
+2025-04-02 18:44:36 [INFO] Discovered 3 device(s):
+2025-04-02 18:44:36 [INFO] - 192.168.1.1 (dsldevice.lan) [Online]
+2025-04-02 18:44:36 [INFO] - 192.168.1.234 (DESKTOP-6A16T69.lan) [Online]
+2025-04-02 18:44:36 [INFO] - 192.168.1.169 (XBOXONE.lan) [Online]
+2025-04-02 18:44:36 [INFO] Monitoring started. Press 'q' to quit.
+2025-04-02 18:44:36 [INFO] Status check started at 18:44:36
+2025-04-02 18:44:36 [WARNING] 3 device(s) offline:
+2025-04-02 18:44:36 [WARNING] - 192.168.1.1 (dsldevice.lan)
+2025-04-02 18:44:36 [WARNING] - 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 18:44:36 [WARNING] - 192.168.1.169 (XBOXONE.lan)
+2025-04-02 18:44:37 [INFO] 192.168.1.169 status changed to ONLINE
+2025-04-02 18:44:37 [INFO] 192.168.1.234 status changed to ONLINE
+2025-04-02 18:44:37 [INFO] Sending email to bernardwotherspoon55@gmail.com...
+2025-04-02 18:44:37 [INFO] 192.168.1.1 status changed to ONLINE
+2025-04-02 18:55:56 [INFO] Starting Network Monitor
+2025-04-02 18:55:57 [INFO] Scanning range: 192.168.1.1-254
+2025-04-02 18:55:57 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 18:55:58 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 18:55:58 [WARNING] 3 device(s) offline
+2025-04-02 18:55:58 [INFO] Running device status check...
+2025-04-02 18:55:59 [ERROR] Failed to send email: An error occurred while attempting to establish an SSL or TLS connection.
+
+The server's SSL certificate could not be validated for the following reasons:
+• The server certificate has the following errors:
+  • The revocation function was unable to check revocation for the certificate.
+
+2025-04-02 18:58:45 [INFO] Starting Network Monitor
+2025-04-02 18:58:46 [INFO] Scanning range: 192.168.1.1-254
+2025-04-02 18:58:46 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 18:58:47 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 18:58:47 [INFO] Running device status check...
+2025-04-02 18:58:53 [ERROR] Failed to send email: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO4P123CA0686.GBRP123.PROD.OUTLOOK.COM 2025-04-02T17:58:53.216Z 08DD71F5705EDDE4]
+2025-04-02 18:58:53 [ERROR] Alert failed: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO4P123CA0686.GBRP123.PROD.OUTLOOK.COM 2025-04-02T17:58:53.216Z 08DD71F5705EDDE4]
+2025-04-02 19:20:10 [INFO] Starting Network Monitor...
+2025-04-02 19:20:11 [INFO] Scanning network: 192.168.1.1-254
+2025-04-02 19:20:11 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:20:12 [INFO] Monitoring active. Press Q to quit.
+2025-04-02 19:20:12 [INFO] Checking device statuses...
+2025-04-02 19:20:19 [ERROR] Email failed: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO4P123CA0402.GBRP123.PROD.OUTLOOK.COM 2025-04-02T18:20:18.903Z 08DD7192A1D6D78C]
+2025-04-02 19:22:34 [INFO] Initializing Network Monitor...
+2025-04-02 19:22:34 [SUCCESS] Email alerts enabled
+2025-04-02 19:22:34 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:22:34 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:22:36 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:22:36 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:22:36 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:22:36 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:22:36 [DEBUG] Checking device statuses...
+2025-04-02 19:22:36 [WARNING] Found 3 offline devices
+2025-04-02 19:22:36 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:22:36 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:22:36 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:22:36 [DEBUG] Connecting to Outlook SMTP server...
+2025-04-02 19:22:41 [ERROR] SMTP Error: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO4P302CA0037.GBRP302.PROD.OUTLOOK.COM 2025-04-02T18:22:41.913Z 08DD66F41D109063]
+2025-04-02 19:22:42 [ERROR] Failed to send alert email: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO4P302CA0037.GBRP302.PROD.OUTLOOK.COM 2025-04-02T18:22:41.913Z 08DD66F41D109063]
+2025-04-02 19:29:15 [INFO] Initializing Network Monitor...
+2025-04-02 19:29:15 [SUCCESS] Email alerts enabled
+2025-04-02 19:29:15 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:29:15 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:29:17 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:29:17 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:29:17 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:29:17 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:29:17 [DEBUG] Checking device statuses...
+2025-04-02 19:29:17 [WARNING] Found 3 offline devices
+2025-04-02 19:29:17 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:29:17 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:29:17 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:29:17 [DEBUG] Connecting to Outlook SMTP server...
+2025-04-02 19:31:17 [ERROR] SMTP Error: Operation timed out after 120000 milliseconds
+2025-04-02 19:31:17 [ERROR] Failed to send alert email: Operation timed out after 120000 milliseconds
+2025-04-02 19:36:59 [INFO] Initializing Network Monitor...
+2025-04-02 19:36:59 [SUCCESS] Email alerts enabled
+2025-04-02 19:36:59 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:36:59 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:37:00 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:37:00 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:37:00 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:37:00 [SUCCESS] Found device: 192.168.1.209 (Pixel-7a.lan)
+2025-04-02 19:37:00 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:37:00 [DEBUG] Checking device statuses...
+2025-04-02 19:37:00 [WARNING] Found 4 offline devices
+2025-04-02 19:37:00 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:37:00 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:37:00 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:37:00 [DEBUG] Connecting to Outlook SMTP server...
+2025-04-02 19:37:00 [SUCCESS] 192.168.1.209 status changed to ONLINE
+2025-04-02 19:37:30 [DEBUG] Checking device statuses...
+2025-04-02 19:38:36 [INFO] Initializing Network Monitor...
+2025-04-02 19:38:36 [SUCCESS] Email alerts enabled
+2025-04-02 19:38:36 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:38:36 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:38:37 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:38:37 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:38:37 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:38:37 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:38:37 [WARNING] Found 3 offline devices
+2025-04-02 19:38:37 [DEBUG] Checking device statuses...
+2025-04-02 19:38:37 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:38:37 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:38:37 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:38:37 [DEBUG] Connecting to Outlook SMTP server...
+2025-04-02 19:38:43 [ERROR] SMTP Error: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO4P123CA0527.GBRP123.PROD.OUTLOOK.COM 2025-04-02T18:38:43.540Z 08DD71CF1D53E2A8]
+2025-04-02 19:38:43 [ERROR] Failed to send alert email: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO4P123CA0527.GBRP123.PROD.OUTLOOK.COM 2025-04-02T18:38:43.540Z 08DD71CF1D53E2A8]
+2025-04-02 19:43:38 [INFO] Initializing Network Monitor...
+2025-04-02 19:43:38 [SUCCESS] Email alerts enabled
+2025-04-02 19:43:38 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:43:38 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:43:40 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:43:40 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:43:40 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:43:40 [SUCCESS] Found device: 192.168.1.209 (Pixel-7a.lan)
+2025-04-02 19:43:40 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:43:40 [DEBUG] Checking device statuses...
+2025-04-02 19:43:40 [WARNING] Found 4 offline devices
+2025-04-02 19:43:40 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:43:40 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:43:40 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:43:40 [SUCCESS] 192.168.1.209 status changed to ONLINE
+2025-04-02 19:43:40 [ERROR] Unsecure email failed: The SMTP server does not support authentication.
+2025-04-02 19:43:40 [ERROR] Failed to send alert email: The SMTP server does not support authentication.
+2025-04-02 19:49:23 [INFO] Initializing Network Monitor...
+2025-04-02 19:49:23 [SUCCESS] Email alerts enabled
+2025-04-02 19:49:23 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:49:23 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:49:24 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:49:24 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:49:24 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:49:24 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:49:24 [DEBUG] Checking device statuses...
+2025-04-02 19:49:24 [WARNING] Found 3 offline devices
+2025-04-02 19:49:24 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:49:24 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:49:24 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:49:24 [ERROR] Unsecure email failed: The SMTP server does not support authentication.
+2025-04-02 19:49:24 [ERROR] Failed to send alert email: The SMTP server does not support authentication.
+2025-04-02 19:49:36 [INFO] Initializing Network Monitor...
+2025-04-02 19:49:36 [SUCCESS] Email alerts enabled
+2025-04-02 19:49:36 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:49:36 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:49:38 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:49:38 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:49:38 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:49:38 [SUCCESS] Found device: 192.168.1.209 (Pixel-7a.lan)
+2025-04-02 19:49:38 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:49:38 [DEBUG] Checking device statuses...
+2025-04-02 19:49:38 [WARNING] Found 4 offline devices
+2025-04-02 19:49:38 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:49:38 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:49:38 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:49:38 [ERROR] Unsecure email failed: The SMTP server does not support authentication.
+2025-04-02 19:49:38 [ERROR] Failed to send alert email: The SMTP server does not support authentication.
+2025-04-02 19:49:38 [SUCCESS] 192.168.1.209 status changed to ONLINE
+2025-04-02 19:51:29 [INFO] Initializing Network Monitor...
+2025-04-02 19:51:29 [SUCCESS] Email alerts enabled
+2025-04-02 19:51:29 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:51:29 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:51:31 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:51:31 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:51:31 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:51:31 [SUCCESS] Found device: 192.168.1.209 (Pixel-7a.lan)
+2025-04-02 19:51:31 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:51:31 [DEBUG] Checking device statuses...
+2025-04-02 19:51:31 [WARNING] Found 4 offline devices
+2025-04-02 19:51:31 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:51:31 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:51:31 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:51:31 [ERROR] Unsecure email failed: The SMTP server does not support authentication.
+2025-04-02 19:51:31 [ERROR] Failed to send alert email: The SMTP server does not support authentication.
+2025-04-02 19:51:31 [SUCCESS] 192.168.1.209 status changed to ONLINE
+2025-04-02 19:53:41 [INFO] Initializing Network Monitor...
+2025-04-02 19:53:41 [WARNING] Email alerts disabled - invalid configuration
+2025-04-02 19:53:41 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:53:41 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:53:43 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:53:43 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:53:43 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:53:43 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:53:43 [DEBUG] Checking device statuses...
+2025-04-02 19:53:43 [SUCCESS] 192.168.1.234 status changed to ONLINE
+2025-04-02 19:53:43 [SUCCESS] 192.168.1.1 status changed to ONLINE
+2025-04-02 19:53:43 [SUCCESS] 192.168.1.169 status changed to ONLINE
+2025-04-02 19:57:24 [INFO] Initializing Network Monitor...
+2025-04-02 19:57:24 [SUCCESS] Email alerts enabled
+2025-04-02 19:57:24 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:57:24 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:57:26 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:57:26 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:57:26 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:57:26 [SUCCESS] Found device: 192.168.1.209 (Pixel-7a.lan)
+2025-04-02 19:57:26 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:57:26 [DEBUG] Checking device statuses...
+2025-04-02 19:57:26 [WARNING] Found 4 offline devices
+2025-04-02 19:57:26 [SUCCESS] 192.168.1.234 status changed to ONLINE (Latency: 0ms)
+2025-04-02 19:57:26 [SUCCESS] 192.168.1.1 status changed to ONLINE (Latency: 1ms)
+2025-04-02 19:57:26 [SUCCESS] 192.168.1.169 status changed to ONLINE (Latency: 2ms)
+2025-04-02 19:57:26 [SUCCESS] 192.168.1.209 status changed to ONLINE (Latency: 101ms)
+2025-04-02 19:57:32 [ERROR] Email failed: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO2P265CA0486.GBRP265.PROD.OUTLOOK.COM 2025-04-02T18:57:32.103Z 08DD714B2CEC0864]
+2025-04-02 19:57:32 [ERROR] Failed to send alert email: 535: 5.7.139 Authentication unsuccessful, basic authentication is disabled. [LO2P265CA0486.GBRP265.PROD.OUTLOOK.COM 2025-04-02T18:57:32.103Z 08DD714B2CEC0864]
+2025-04-02 19:59:53 [INFO] Initializing Network Monitor...
+2025-04-02 19:59:53 [SUCCESS] Email alerts enabled
+2025-04-02 19:59:53 [INFO] Scanning network range: 192.168.1.1-254
+2025-04-02 19:59:53 [INFO] Scanning 192.168.1.1 to 192.168.1.254...
+2025-04-02 19:59:54 [SUCCESS] Found device: 192.168.1.1 (dsldevice.lan)
+2025-04-02 19:59:54 [SUCCESS] Found device: 192.168.1.169 (XBOXONE.lan)
+2025-04-02 19:59:54 [SUCCESS] Found device: 192.168.1.234 (DESKTOP-6A16T69.lan)
+2025-04-02 19:59:54 [SUCCESS] Found device: 192.168.1.209 (Pixel-7a.lan)
+2025-04-02 19:59:54 [INFO] Monitoring started. Press Q to quit.
+2025-04-02 19:59:54 [DEBUG] Checking device statuses...
+2025-04-02 19:59:54 [WARNING] Found 4 offline devices
+2025-04-02 19:59:54 [SUCCESS] 192.168.1.1 status changed to ONLINE (Latency: 1ms)
+2025-04-02 19:59:54 [SUCCESS] 192.168.1.169 status changed to ONLINE (Latency: 2ms)
+2025-04-02 19:59:54 [SUCCESS] 192.168.1.234 status changed to ONLINE (Latency: 0ms)
+2025-04-02 19:59:54 [SUCCESS] 192.168.1.209 status changed to ONLINE (Latency: 151ms)
+2025-04-02 19:59:56 [ERROR] Failed to send email: AADSTS900023: Specified tenant identifier 'your-tenant-id' is neither a valid DNS name, nor a valid external domain. Trace ID: 7ea8aa6b-aced-419b-8ed4-48be8ef80500 Correlation ID: b3771207-eee3-49f4-95da-8ff498d03a85 Timestamp: 2025-04-02 18:59:56Z
+2025-04-02 19:59:57 [ERROR] Failed to send alert email: AADSTS900023: Specified tenant identifier 'your-tenant-id' is neither a valid DNS name, nor a valid external domain. Trace ID: 7ea8aa6b-aced-419b-8ed4-48be8ef80500 Correlation ID: b3771207-eee3-49f4-95da-8ff498d03a85 Timestamp: 2025-04-02 18:59:56Z
+2025-04-02 20:00:24 [DEBUG] Checking device statuses...
+2025-04-02 20:00:54 [DEBUG] Checking device statuses...
+2025-04-02 20:01:24 [DEBUG] Checking device statuses...

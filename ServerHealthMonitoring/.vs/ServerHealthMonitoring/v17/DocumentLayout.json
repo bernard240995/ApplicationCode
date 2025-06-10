@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\ramchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\ramchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\dellserverchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\dellserverchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\cpuchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\cpuchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\servicechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\servicechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\sqlservicechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\sqlservicechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\networkchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\networkchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\filesharechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\filesharechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\hpilochecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\hpilochecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|c:\\users\\bernard\\source\\repos\\serverhealthmonitoring\\serverhealthmonitoring\\diskchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9D33F3-EF97-40A7-966D-EFF1486E4972}|ServerHealthMonitoring\\ServerHealthMonitoring.csproj|solutionrelative:serverhealthmonitoring\\diskchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RamChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\RamChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\RamChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\RamChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\RamChecker.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:31:12.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SqlServiceChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\SqlServiceChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\SqlServiceChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\SqlServiceChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\SqlServiceChecker.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwFoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:44:49.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\ServiceChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\ServiceChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\ServiceChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\ServiceChecker.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:25:07.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\Program.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\Program.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\Program.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:10:34.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\Logger.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\Logger.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\Logger.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:21:50.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CpuChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\CpuChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\CpuChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\CpuChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\CpuChecker.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:22:20.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\EmailNotifier.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\EmailNotifier.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\EmailNotifier.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\EmailNotifier.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwO8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:52:22.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NetworkChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\NetworkChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\NetworkChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\NetworkChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\NetworkChecker.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:22:48.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DellServerChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\DellServerChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\DellServerChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\DellServerChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\DellServerChecker.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA4wA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:12:24.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileShareChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\FileShareChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\FileShareChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\FileShareChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\FileShareChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:24:23.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HpIloChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\HpIloChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\HpIloChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\HpIloChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\HpIloChecker.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:09:48.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DiskChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\DiskChecker.cs",
+              "RelativeDocumentMoniker": "ServerHealthMonitoring\\DiskChecker.cs",
+              "ToolTip": "C:\\Users\\Bernard\\source\\repos\\ServerHealthMonitoring\\ServerHealthMonitoring\\DiskChecker.cs",
+              "RelativeToolTip": "ServerHealthMonitoring\\DiskChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:22:33.414Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

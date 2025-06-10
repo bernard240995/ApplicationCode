@@ -1,0 +1,14 @@
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\AdvancedCyberSecurityMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\AdvancedCyberSecurityMonitor.AssemblyInfoInputs.cache
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\AdvancedCyberSecurityMonitor.AssemblyInfo.cs
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\AdvancedCyberSecurityMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\bin\Debug\net8.0\AdvancedCyberSecurityMonitor.exe
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\bin\Debug\net8.0\AdvancedCyberSecurityMonitor.deps.json
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\bin\Debug\net8.0\AdvancedCyberSecurityMonitor.runtimeconfig.json
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\bin\Debug\net8.0\AdvancedCyberSecurityMonitor.dll
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\bin\Debug\net8.0\AdvancedCyberSecurityMonitor.pdb
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\AdvancedCyberSecurityMonitor.dll
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\refint\AdvancedCyberSecurityMonitor.dll
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\AdvancedCyberSecurityMonitor.pdb
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\AdvancedCyberSecurityMonitor.genruntimeconfig.cache
+C:\Users\Bernard\source\repos\AdvancedCyberSecurityMonitor\AdvancedCyberSecurityMonitor\obj\Debug\net8.0\ref\AdvancedCyberSecurityMonitor.dll

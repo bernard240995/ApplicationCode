@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)' == 'Release'">
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ClosedXML" Version="0.105.0" />
+		<PackageReference Include="MailKit" Version="4.12.1" />
+		<PackageReference Include="MimeKit" Version="4.12.0" />
+		<PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+		<PackageReference Include="System.Net.Http" Version="4.3.4" />
+		<PackageReference Include="Obfuscar" Version="2.2.49" />
+	</ItemGroup>
+	<ItemGroup>
+		 <EmbeddedResource Include="CloudflareStatusChecker.dll.config">
+        <LogicalName>CloudflareStatusChecker.CloudflareStatusChecker.dll.config</LogicalName>
+    </EmbeddedResource>
+	</ItemGroup>
+	<Target Name="Obfuscate" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+		<MakeDir Directories="$(ProjectDir)bin\Obfuscated\net8.0" />
+		<Exec Command="&quot;$(NuGetPackageRoot)\obfuscar\2.2.49\tools\Obfuscar.Console.exe&quot; $(ProjectDir)obfuscar.xml" />
+		<Exec Command="powershell -command &quot;Start-Sleep -Milliseconds 2000&quot;" />
+		<ItemGroup>
+			<ObfuscatedFiles Include="$(ProjectDir)bin\Obfuscated\net8.0\*.*" />
+		</ItemGroup>
+		<Copy SourceFiles="@(ObfuscatedFiles)" DestinationFolder="$(ProjectDir)bin\Release\net8.0" OverwriteReadOnlyFiles="true" />
+		<Delete Files="$(ProjectDir)bin\Release\net8.0\CloudflareStatusChecker.dll.config" />
+	</Target>
+
+</Project>
